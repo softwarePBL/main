@@ -59,52 +59,39 @@ img {
     color: black;
 }
 
-.mypage {
+.dropdown_btn {
     position: absolute;
     left: 1700px;
     top: 150px;
     background-color: white;
     border: none;
-}
-
-.dropdown-btn {
-    position: absolute;
-    left: 1700px;
-    top: 150px;
-    background-color: white;
-    border: none;
-}
-
-/* Dropdown Button */
-.dropdown {
-    border: 1px solid #000;
-    width: 200px;
-    display: inline-block;
-    /*position: relative;*/
-}
-.dropdown-btn {
     cursor: pointer;
 }
 
-.dropdown-submenu{
+.dropdown_submenu{
     width:200px;
+    position: absolute;
+    left: 1650px;
+    top: 250px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
     display: none;
-    /*position: absolute;*/
-    background: yellow;
+    z-index:1;
+    background:rgba(247, 204, 110, 1);
 }
 
-.dropdown-submenu a {
+.dropdown_submenu a {
+    text-decoration: none;
     display: block;
     padding: 7px;
     text-align: center;
+    color: black;
+    font-size: 18pt;
+    font-weight: 400;
 }
 
-.dropdown-submenu a:hover {
-    background-color: #eee;
-}
 
-.dropdown:hover .dropdown-submenu {
+
+.dropdown:hover .dropdown_submenu {
     display: block;
 }
 
@@ -123,6 +110,7 @@ button.mbti_btn {
     color:white; 
 }
 
+
 /* 메인페이지 css */
 
 .shop_page {
@@ -132,7 +120,7 @@ button.mbti_btn {
 }
 .shop_page .nav2{
     position: absolute;
-    top:100%;
+    top: 100%;
     left:50%;
     transform: translate(-50%, -50%);
     justify-content: space-between;
@@ -154,7 +142,7 @@ button.mbti_btn {
 
 .search {
     position: absolute;
-    top:400%;
+    top:250%;
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
