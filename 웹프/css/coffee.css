@@ -1,7 +1,7 @@
 .body_content {
     position: relative;
     align-items: center;
-    font-size: 0.8vw;
+    font-size: 12pt;
     padding: 10% 20%;
     font-weight: 600;
 
@@ -10,8 +10,8 @@
 input[type="checkbox"] {
     display: inline-block;
     box-sizing: border-box;
-    width: 1vw;
-    height: 1vw;
+    width: 14px;
+    height: 14px;
     border: 2px solid black;
 }
 
