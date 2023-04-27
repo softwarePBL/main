@@ -3,8 +3,8 @@
     align-items: center;
     font-size: 12pt;
     padding: 10% 20%;
+    top : 1vw;
     font-weight: 600;
-
 }
 
 input[type="checkbox"] {

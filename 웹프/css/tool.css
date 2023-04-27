@@ -15,3 +15,13 @@
 }
 
 
+.nav1 ul li{
+    display: inline-block;
+    margin: 0 3vw;
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    margin-left: 0.5vw;
+    color: black;
+}
