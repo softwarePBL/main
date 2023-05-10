@@ -176,7 +176,7 @@ button.mbti_btn {
 
 }
 
-input {
+input[type=search] {
     width:600px;
     height: 55px;
     font-size: 20px;
