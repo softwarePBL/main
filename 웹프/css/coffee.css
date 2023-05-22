@@ -1,9 +1,12 @@
 .body_content {
-    position: relative;
+    position: absolute;
     align-items: center;
     font-size: 12pt;
-    padding: 10% 20%;
-    top : 1vw;
+    padding: 0;
+    height: auto;
+    width: auto;
+    top : 25vw;
+    left:20vw;
     font-weight: 600;
 }
 
@@ -59,4 +62,22 @@ input[type="checkbox"] {
 }
 .coffee_level {
     background: white;
+}
+
+.coffee_product_list {
+    position: absolute;
+    left:8vw;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50vw;
+    height: 150vw;
+}
+
+.product-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
