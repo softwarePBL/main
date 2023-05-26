@@ -189,7 +189,8 @@ input[type=search] {
 .search_button {
     position: absolute;
     left: 530px;
-    top: 12px;
+    top: 10px;
     background-color: white;
     border: none;
 }
+

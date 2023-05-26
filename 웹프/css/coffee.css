@@ -48,7 +48,7 @@ input[type="checkbox"] {
 }
 
 .more_coffee {
-    position: absolute;
+    position: relative;
     z-index: 1;
     display: bloxk;
     background-color: lightgray;
@@ -64,10 +64,24 @@ input[type="checkbox"] {
     background: white;
 }
 
+.coffee_apply {
+    position:relative;
+    left: 48vw;
+    font-size: 0.8vw;
+    font-weight: 800;
+}
+
+.c_apply{
+    height:2vw;
+    width: 4vw;
+    font-size: 0.9vw;
+    font-weight: 700;
+}
 .coffee_product_list {
-    position: absolute;
+    position: relative;
     left:8vw;
 }
+
 
 .product-list {
     display: grid;
