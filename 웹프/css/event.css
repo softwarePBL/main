@@ -33,6 +33,17 @@
     top: 10vw;
 }
 
+.event_1 {
+    position:relative;
+    left:25vw;
+}
+.event_2{
+    position: relative;
+    top: -18vw;
+    left: 50vw;
+
+}
+
 .ongoing_title {
     position: absolute;
     left:50%;
