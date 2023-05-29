@@ -81,7 +81,12 @@
         <div class="product-price">가격: $100</div>
 
         <div class="option">
-            옵션 선택
+            수량 선택
+            <div class="quantity">
+                <button id="decrease" onclick="decreaseQuantity()">-</button>
+                <input type="text" id="quantity" value="1" readonly>
+                <button id="increase" onclick="increaseQuantity()">+</button>
+            </div>
             <div class="total">
                 Total
 
@@ -123,6 +128,9 @@
             <div class="p_1">
                 등급 :
             </div>
+            <div class="p_2">
+                상세 이미지
+            </div>
         </div>
 
         <div class="review">
@@ -134,5 +142,6 @@
     </div>
 
     <script src="../js/main.js"></script>
+    <script src="../js/count.js"></script>
 </body>
 </html>

@@ -75,11 +75,22 @@
 .review{
     position: relative;
     top: 1vw;
+    width: 50vw;
+    margin-top: 3vw;
     margin-bottom:1vw;
+    border-color:white;
+    border-style: solid;
+    border-top-color: black;
+    border-width: thin;
 }
 
 .qa{
     position: relative;
     top : 1vw;
+    width: 50vw;
     margin-bottom: 5vw;
+    border-color:white;
+    border-style: solid;
+    border-top-color: black;
+    border-width: thin;
 }
