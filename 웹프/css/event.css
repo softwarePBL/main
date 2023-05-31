@@ -28,6 +28,8 @@
 
 .weekly_special_banner{
     position: absolute;
+    height: auto;
+    width:auto;
     margin: 0;
     padding: 0;
     top: 10vw;
@@ -36,27 +38,38 @@
 .event_1 {
     position:relative;
     left:25vw;
+    height: 20vw;
 }
 .event_2{
     position: relative;
-    top: -18vw;
+    top: -20vw;
     left: 50vw;
+    height: 20vw;
 
 }
 
 .ongoing_title {
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-60%, 1500%);
+    position: relative;
+    top:33vw;
+    left: 40vw;
     box-sizing: border-box;
     font-size: 1.7vw;
 }
 
 .ongoing_special_banner{
     position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, 200%);
 }
 
+.event_3{
+    position:relative;
+    left:25.7vw;
+    top:35vw;
+    height:24vw;
+}
+
+.event_4{
+    position: relative;
+    left:50vw;
+    top:11vw;
+    height:24vw;
+}
