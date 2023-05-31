@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bulletin.css">
+    <script src="https://kit.fontawesome.com/fad56724bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <!--로고-->
+            <img src="../img/logo_2.jpg" class="logo_img">
+        </div>
+        <span class="title">
+            Cafe인
+        </span>
+        
+        <span class="nav1">
+            <ul>
+                <li><a href="coffee.html" style="font-size: 2.2vw;">Shop</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </span>
+
+        <div class="dropdown">
+            <button type="button" class="dropdown_btn" id="img_btn"><img src="../img/coffeebean.png"></button>
+            <div class="dropdown_submenu">
+                <div class="submenu_title">
+                    <b>My CafeIn</b>
+                    <a></a>
+                </div>
+                <div class="submenu_shopping">
+                    <a href="#">장바구니</a>
+                </div>
+                <div class="submenu_interest">
+                    <a href="#"><b>관심 상품</b></a>
+                    <a href="#">찜한 상품</a>
+                    <a href="#">최근 본 상품</a>
+                </div>
+                <b href="#">주문 목록</b>
+                <div class="submenu_review">
+                    <a href="#"><b>리뷰 관리</b></a>
+                    <a href="#">작성 가능한 리뷰</a>
+                    <a href="#">내가 작성한 리뷰</a>
+                </div>
+                <a href="#"><b>쿠폰 관리</b></a>
+                <a href="#"><b>계정 관리</b></a>
+            </div>
+        </div>
+        <div class="guest">
+            guest1 님
+        </div>
+    </div>
+    
+    <div class = "shop_page">
+        <div class="nav2">
+            <ul>
+                <li><a href="coffee.html">원두</a></li>
+                <li><a href="tool.html">도구</a></li>
+                <li><a href="new_product.html">신상</a></li>
+                <li><a href="sale.html">세일</a></li>
+                <li><a href="event.html">기획전</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input name="searching" type="search" class="input" placeholder="검색어를 입력하세요">
+            <button type="button" class="search_button" id="search_button" style='cursor:pointer'>
+                <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="bulletin">
+        <span class="b_title">게시글 작성</span>
+        <br>
+        <br>
+        <form action="submit_post.php" method="post">
+            <label for="title">제목:</label>
+            <input type="text1" id="b_title" name="title" required><br><br>
+            
+            <div class="coffee">
+                <label for="tags">원두 혼합 유무 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">블렌딩</label>
+                
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">싱글오리진</label>
+            </div>
+            <br>
+            <div class="taste">
+                <label for="tags">커피 맛 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">계피</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">바닐라</label>
+                <input type="checkbox" id="tag3" name="tags[]" value="태그3">
+                <label for="tag1">브렛퍼스트 블렌드</label>
+                <input type="checkbox" id="tag4" name="tags[]" value="태그4">
+                <label for="tag2">블루베리</label>
+                <input type="checkbox" id="tag5" name="tags[]" value="태그5">
+                <label for="tag1">아마레토</label><br>
+                <input type="checkbox" id="tag6" name="tags[]" value="태그6">
+                <label for="tag2">아이리시 크림</label>
+                <input type="checkbox" id="tag7" name="tags[]" value="태그7">
+                <label for="tag1">초콜렛 라즈베리</label>
+                <input type="checkbox" id="tag8" name="tags[]" value="태그8">
+                <label for="tag2">캐러멜</label>
+                <input type="checkbox" id="tag9" name="tags[]" value="태그9">
+                <label for="tag1">펌킨 스파이스</label>
+                <input type="checkbox" id="tag10" name="tags[]" value="태그10">
+                <label for="tag2">헤이즐넛</label>
+                <input type="checkbox" id="tag11" name="tags[]" value="태그11">
+                <label for="tag2">기타</label>
+            </div>
+            <br>
+
+            <div class="roasting">
+                <label for="tags">분쇄 타입 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">생두</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">원두</label>
+                <input type="checkbox" id="tag3" name="tags[]" value="태그3">
+                <label for="tag1">분쇄커피</label>
+            </div>
+            <br>
+
+            <div class="price">
+                <label for="tags">가격(원) :</label>
+                <input type="text2" id="b_title" name="title" required><br>
+            </div>
+            <br>
+            
+            <div class="caffein">
+                <label for="tags">카페인 유무 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">카페인</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">디카페인</label>
+            </div>
+            <br>
+
+            <div class="roasting_level">
+                <label for="tags">로스팅 단계 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">라이트</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">미디엄</label>
+                <input type="checkbox" id="tag3" name="tags[]" value="태그3">
+                <label for="tag2">다크</label>
+            </div>
+            <br>
+
+            <div class="equal">
+                <label for="tags">공정무역여부 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">공정무역 O</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">공정무역 X</label>
+            </div>
+            <br>
+
+            <div class="level">
+                <label for="tags">등급 :</label>
+
+                <input type="checkbox" id="tag1" name="tags[]" value="태그1">
+                <label for="tag1">AA</label>
+                <input type="checkbox" id="tag2" name="tags[]" value="태그2">
+                <label for="tag2">G1</label>
+                <input type="checkbox" id="tag3" name="tags[]" value="태그3">
+                <label for="tag1">G2</label>
+                <input type="checkbox" id="tag4" name="tags[]" value="태그4">
+                <label for="tag2">G3</label>
+                <input type="checkbox" id="tag5" name="tags[]" value="태그5">
+                <label for="tag1">G4</label><br>
+                <input type="checkbox" id="tag6" name="tags[]" value="태그6">
+                <label for="tag2">NY2</label>
+                <input type="checkbox" id="tag7" name="tags[]" value="태그7">
+                <label for="tag1">P8</label>
+                <input type="checkbox" id="tag8" name="tags[]" value="태그8">
+                <label for="tag2">SHB</label>
+                <input type="checkbox" id="tag9" name="tags[]" value="태그9">
+                <label for="tag2">SHG</label>
+                <input type="checkbox" id="tag10" name="tags[]" value="태그10">
+                <label for="tag2">수프리모</label>
+                <input type="checkbox" id="tag11" name="tags[]" value="태그11">
+                <label for="tag2">기타</label>
+            </div>
+            <br>
+            
+            <label for="content">내용(파일로 첨부 가능):</label>
+            <input type="file" name="photo" accept="image/*">
+            <br>
+            <br>
+
+            <input type="submit" value="게시글 작성">
+        </form>
+    </div>
+
+    
+</body>
+</html>

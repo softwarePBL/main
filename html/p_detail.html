@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/p_detail.css">
+    <script src="https://kit.fontawesome.com/fad56724bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <!--로고-->
+            <img src="../img/logo_2.jpg" class="logo_img">
+        </div>
+        <span class="title">
+            Cafe인
+        </span>
+        
+        <span class="nav1">
+            <ul>
+                <li><a href="coffee.html" style="font-size:2.2vw;">Shop</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </span>
+
+        <div class="dropdown">
+            <button type="button" class="dropdown_btn" id="img_btn"><img src="../img/coffeebean.png"></button>
+            <div class="dropdown_submenu">
+                <div class="submenu_title">
+                    <b>My CafeIn</b>
+                    <a></a>
+                </div>
+                <div class="submenu_shopping">
+                    <a href="#">장바구니</a>
+                </div>
+                <div class="submenu_interest">
+                    <a href="#"><b>관심 상품</b></a>
+                    <a href="#">찜한 상품</a>
+                    <a href="#">최근 본 상품</a>
+                </div>
+                <b href="#">주문 목록</b>
+                <div class="submenu_review">
+                    <a href="#"><b>리뷰 관리</b></a>
+                    <a href="#">작성 가능한 리뷰</a>
+                    <a href="#">내가 작성한 리뷰</a>
+                </div>
+                <a href="#"><b>쿠폰 관리</b></a>
+                <a href="#"><b>계정 관리</b></a>
+            </div>
+        </div>
+        <div class="guest">
+            guest1 님
+        </div>
+    </div>  
+    <div class = "shop_page">
+        <div class="nav2">
+            <ul>
+                <li><a href="coffee.html" style = "color : burlywood">원두</a></li>
+                <li><a href="tool.html">도구</a></li>
+                <li><a href="new_product.html">신상</a></li>
+                <li><a href="sale.html">세일</a></li>
+                <li><a href="event.html">기획전</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input name="searching" type="search" class="input" placeholder="검색어를 입력하세요">
+            <button type="button" class="search_button" id="search_button" style='cursor:pointer'>
+                <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <img class="product-image" src="../img/coffee.png" alt="Product Image">
+        <h1 class="product-name">상품 이름</h1>
+        <div class="product_intro">상품 소개</div>
+        <div class="product-price">가격: $100</div>
+
+        <div class="option">
+            수량 선택
+            <div class="quantity">
+                <button id="decrease" onclick="decreaseQuantity()">-</button>
+                <input type="text" id="quantity" value="1" readonly>
+                <button id="increase" onclick="increaseQuantity()">+</button>
+            </div>
+            <div class="total">
+                Total
+
+            </div>
+        </div>
+
+        <div class="p_button">
+            <button type="button" class="shopping" id="shopping">
+                장바구니
+            </button>
+            <button type="button" class="love" id="love">
+                찜
+            </button>
+            <button type="button" class="purchase">
+                구매하기
+            </button>
+        </div>
+
+        <div class="detail">
+            <span class="t_detail">Detail</span>
+            <div class="p_1">
+                원두 혼합 유무 :
+            </div>
+            <div class="p_1">
+                커피 맛 :
+            </div>
+            <div class="p_1">
+                분쇄 타입 :
+            </div>
+            <div class="p_1">
+                카페인 유무 :
+            </div>
+            <div class="p_1">
+                로스팅단계 :
+            </div>
+            <div class="p_1">
+                공정무역여부 :
+            </div>
+            <div class="p_1">
+                등급 :
+            </div>
+            <div class="p_2">
+                상세 이미지
+            </div>
+        </div>
+
+        <div class="review">
+            Review :
+        </div>
+        <div class="qa">
+            Q&A :
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/count.js"></script>
+</body>
+</html>

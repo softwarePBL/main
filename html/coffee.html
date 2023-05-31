@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/coffee.css">
+    <script src="https://kit.fontawesome.com/fad56724bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <!--로고-->
+            <img src="../img/logo_2.jpg" class="logo_img">
+        </div>
+        <span class="title">
+            Cafe인
+        </span>
+        
+        <span class="nav1">
+            <ul>
+                <li><a href="coffee.html" style="font-size:2.2vw;">Shop</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </span>
+
+        <div class="dropdown">
+            <button type="button" class="dropdown_btn" id="img_btn"><img src="../img/coffeebean.png"></button>
+            <div class="dropdown_submenu">
+                <div class="submenu_title">
+                    <b>My CafeIn</b>
+                    <a></a>
+                </div>
+                <div class="submenu_shopping">
+                    <a href="#">장바구니</a>
+                </div>
+                <div class="submenu_interest">
+                    <a href="#"><b>관심 상품</b></a>
+                    <a href="#">찜한 상품</a>
+                </div>
+                <b href="#">주문 목록</b>
+                <div class="submenu_review">
+                    <a href="#"><b>리뷰 관리</b></a>
+                    <a href="#">작성 가능한 리뷰</a>
+                    <a href="#">내가 작성한 리뷰</a>
+                </div>
+                <a href="#"><b>계정 관리</b></a>
+            </div>
+        </div>
+        <div class="guest">
+            <span id="randomNumber"></span>
+        </div>
+    </div>  
+    <div class = "shop_page">
+        <div class="nav2">
+            <ul>
+                <li><a href="coffee.html" style = "color : burlywood">원두</a></li>
+                <li><a href="tool.html">도구</a></li>
+                <li><a href="new_product.html">신상</a></li>
+                <li><a href="sale.html">세일</a></li>
+                <li><a href="event.html">기획전</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input name="searching" type="search" class="input" placeholder="검색어를 입력하세요">
+            <button type="button" class="search_button" id="search_button" style='cursor:pointer'>
+                <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="body_content">
+        <div class="coffee_mix">
+            <div class="coffee_mix_choice">
+                원두 혼합 유무
+            </div>
+            <div class="coffee_mix_checkbox">
+                <input type="checkbox" id="coffee_mix_label1"> <label for="coffee_mix_label1">블렌딩  (2가지 이상의 원두를 혼합)</label>
+                <input type="checkbox" id="coffee_mix_label2"> <label for="coffee_mix_label2">싱글 오리진  (1가지 원두만 이용)</label>
+            </div>
+        </div>
+        <div class="coffee_taste">
+            <div class="coffee_mix_choice">
+                커피 맛(다중 선택 가능)
+            </div>
+            <div class="coffee_mix_checkbox">
+                <input type="checkbox" id="coffee_taste_label1"> <label for="coffee_taste_label1">계피</label>
+                <input type="checkbox" id="coffee_taste_label2"> <label for="coffee_taste_label2">바닐라</label>
+                <input type="checkbox" id="coffee_taste_label3"> <label for="coffee_taste_label3">브렛퍼스트 블렌드</label>
+                <input type="checkbox" id="coffee_taste_label4"> <label for="coffee_taste_label4">블루베리</label>
+                <input type="checkbox" id="coffee_taste_label5"> <label for="coffee_taste_label5">아마레토</label>
+                <br>
+                <input type="checkbox" id="coffee_taste_label6"> <label for="coffee_taste_label6">아이리시 크림</label>
+                <input type="checkbox" id="coffee_taste_label7"> <label for="coffee_taste_label7">초콜렛 라즈베리</label>
+                <input type="checkbox" id="coffee_taste_label8"> <label for="coffee_taste_label8">캐러멜</label>
+                <input type="checkbox" id="coffee_taste_label9"> <label for="coffee_taste_label9">펌킨 스파이스</label>
+                <input type="checkbox" id="coffee_taste_label10"> <label for="coffee_taste_labe10">헤이즐넛</label>
+                <input type="checkbox" id="coffee_taste_label11"> <label for="coffee_taste_labe11">기타</label>
+            </div>
+        </div>
+        <div class="coffee_grind">
+            <div class="coffee_mix_choice">분쇄 타입</div>
+            <div class="coffee_mix_checkbox">
+                <input type="checkbox" id="coffee_grind_label1"> <label for="coffee_grind_label1">생두</label>
+                <input type="checkbox" id="coffee_grind_label2"> <label for="coffee_grind_label2">원두</label>
+                <input type="checkbox" id="coffee_grind_label3"> <label for="coffee_grind_label3">분쇄커피</label>
+            </div>
+        </div>
+        <div class="coffee_price">
+            <div class="coffee_mix_choice">가격</div>
+            <div class="coffee_mix_checkbox">
+                <input type="checkbox" id="coffee_price_label1"> <label for="coffee_price_label1">8천원 ~ 1만 2천원</label>
+                <input type="checkbox" id="coffee_price_label2"> <label for="coffee_price_label2">1만 2천원 ~ 2만원</label>
+                <input type="checkbox" id="coffee_price_label3"> <label for="coffee_price_label3">2만원 ~ 3만원</label>
+                <input type="checkbox" id="coffee_price_label4"> <label for="coffee_price_label4">3만원 ~</label>
+            </div>
+        </div>
+        <div class="coffee_caffein">
+            <div class="coffee_mix_choice">카페인 유무</div>
+            <div class="coffee_mix_checkbox">
+                <input type="checkbox" id="coffee_caffein_label1"> <label for="coffee_caffein_label1">카페인</label>
+                <input type="checkbox" id="coffee_caffein_label2"> <label for="coffee_caffein_label2">디카페인</label>
+            </div>
+        </div>
+        <div class="more_button">
+            <button onclick="dp_menu()"  class="more_button" id="more_button" style='cursor:pointer'>
+                더보기
+            </button>
+        </div>
+        <div class="more_coffee" div style="display: none;" id="more_coffee">
+            <div class="coffee_roasting">
+                <div class="coffee_mix_choice">로스팅 단계</div>
+                <div class="coffee_mix_checkbox">
+                    <input type="checkbox" id="coffee_roasting_label1"> <label for="coffee_roasting_label1">라이트</label>
+                    <input type="checkbox" id="coffee_roasting_label2"> <label for="coffee_roasting_label2">미디엄</label>
+                    <input type="checkbox" id="coffee_roasting_label3"> <label for="coffee_roasting_label3">다크</label>
+                </div>
+            </div>
+            <div class="coffee_fair_trade">
+                <div class="coffee_mix_choice">공정무역 여부</div>
+                <div class="coffee_mix_checkbox">
+                    <input type="checkbox" id="coffee_fair_label1"> <label for="coffee_fair_label1">공정무역 O</label>
+                    <input type="checkbox" id="coffee_fair_label2"> <label for="coffee_fair_label2">공정무역 X</label>
+                </div>
+            </div>
+            <div class="coffee_level">
+                <div class="coffee_mix_choice">등급</div>
+                <div class="coffee_mix_checkbox">
+                    <input type="checkbox" id="coffee_level_label1"> <label for="coffee_level_label1">AA</label>
+                    <input type="checkbox" id="coffee_level_label2"> <label for="coffee_level_label2">G1</label>
+                    <input type="checkbox" id="coffee_level_label3"> <label for="coffee_level_label3">G2</label>
+                    <input type="checkbox" id="coffee_level_label4"> <label for="coffee_level_label4">G3</label>
+                    <input type="checkbox" id="coffee_level_label5"> <label for="coffee_level_label5">G4</label>
+                    <br>
+                    <input type="checkbox" id="coffee_level_label6"> <label for="coffee_level_label6">NY2</label>
+                    <input type="checkbox" id="coffee_level_label7"> <label for="coffee_level_label7">PB</label>
+                    <input type="checkbox" id="coffee_level_label8"> <label for="coffee_level_label8">SHB</label>
+                    <input type="checkbox" id="coffee_level_label9"> <label for="coffee_level_label9">SHG</label>
+                    <input type="checkbox" id="coffee_level_label10"> <label for="coffee_level_label10">수프리모</label>
+                    <input type="checkbox" id="coffee_level_label11"> <label for="coffee_level_label11">기타</label>
+                </div>
+            </div>
+        </div>
+        <!--
+            <div class="coffee_apply">
+                <button class="c_apply" id="c_apply" style="cursor: pointer;">
+                    적용
+                </button>
+            </div>
+        -->
+        <div class="coffee_product_list">
+            <h1>상품 리스트</h1>
+            <div class="product-list" id="productList"></div>
+        </div>
+    </div>
+    <script src="../js/product.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
