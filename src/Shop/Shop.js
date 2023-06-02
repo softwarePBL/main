@@ -49,7 +49,7 @@ const Shop = () => {
                     <li><a><Link to='/Shop/Tool'>도구</Link></a></li>
                     <li><a href="new_product.html">신상</a></li>
                     <li><a href="sale.html">세일</a></li>
-                    <li><a><Link to='/Shop/Event'>이벤트</Link></a></li>
+                    <li><a><Link to='/Shop/Event'>기획전</Link></a></li>
                 </ul>
             </div>
             

@@ -1,12 +1,12 @@
 
 .body_content {
-    position: absolute;
+    position: relative;
     align-items: center;
     font-size: 12pt;
     padding: 0;
     height: auto;
-    width: auto;
-    top : 20vw;
+    width: 100px;
+    top : 10vw;
     left:20vw;
     font-weight: 600;
 }

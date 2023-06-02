@@ -4,10 +4,10 @@ a {
 }
 
 .body2_content {
-    position: absolute;
+    position:relative;
     align-items: center;
     font-size: 12pt;
-    padding: 10% 20%;
+    
     font-weight: 600;
 }
 

@@ -41,11 +41,11 @@ const Event2 = () => {
         <div className = "shop_page">
             <div className ="nav2">
                 <ul>
-                    <li><a href="coffee.html" >원두</a></li>
-                    <li><a href="tool.html">도구</a></li>
+                    <li><a><Link to='/Shop/Shop'>원두</Link></a></li>
+                    <li><a><Link to='/Shop/Tool'>도구</Link></a></li>
                     <li><a href="new_product.html">신상</a></li>
                     <li><a href="sale.html">세일</a></li>
-                    <li><a href="./Event.js" style={{ color: 'burlywood' }}>기획전</a></li>
+                    <li><a><Link to='/Shop/Event' style={{ color: 'burlywood'}}>기획전</Link></a></li>
                 </ul>
             </div>
         </div>
