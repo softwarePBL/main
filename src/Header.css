@@ -6,13 +6,16 @@ body {
   
   
   .header {
-    position: relative;
-    width: auto;
-    height: 2.2vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
     padding: 70px;
+    box-sizing: border-box;
     border-color: white;
     border-style: solid;
-    border-bottom-color:burlywood;
+    border-bottom-color: burlywood;
   }
   
   
@@ -132,13 +135,12 @@ body {
   .shop_page {
     position: relative;
     width: auto;
-    padding: 1vw;
+    padding-top: 70px;
   }
   .shop_page .nav2{
     position: absolute;
-    top: 130%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    top :9vw;
+    left: 33vw;
     justify-content: space-between;
     font-family: abster;
   }
