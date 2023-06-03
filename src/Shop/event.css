@@ -1,6 +1,6 @@
 .title_plan {
     position: relative;
-    top: 8vw;
+    top: 14vw;
     height: 10vw;
     width: 60vw;
     margin: 0 auto;
@@ -32,7 +32,7 @@
     width:auto;
     margin: 0;
     padding: 0;
-    top: 10vw;
+    top: 16vw;
 }
 
 .event_1 {
@@ -50,7 +50,7 @@
 
 .ongoing_title {
     position: relative;
-    top:33vw;
+    top:39vw;
     left: 40vw;
     box-sizing: border-box;
     font-size: 1.7vw;
@@ -63,13 +63,13 @@
 .event_3{
     position:relative;
     left:25.7vw;
-    top:35vw;
+    top:41vw;
     height:24vw;
 }
 
 .event_4{
     position: relative;
     left:50vw;
-    top:11vw;
+    top:17vw;
     height:24vw;
 }
