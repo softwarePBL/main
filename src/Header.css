@@ -9,10 +9,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    box-sizing: border-box;
     width: 100vw;
     height: 10vh;
     padding: 70px;
-    box-sizing: border-box;
     border-color: white;
     border-style: solid;
     border-bottom-color: burlywood;
@@ -21,9 +21,9 @@ body {
   
   .logo {
     position: absolute;
-    width: 10vw;
-    top: -2vw;
-    left: 6vw;
+    width: 8vw;
+    top: -1.4vw;
+    left: 7vw;
     transform: rotate(-15deg);
   }
   
@@ -37,7 +37,7 @@ body {
     position: absolute;
     font-size: 3vw;
     font-weight: 600;
-    left: 12vw;
+    left: 11vw;
     top: 3vw;
   }
   
@@ -173,6 +173,7 @@ body {
     border-radius: 60px;
     border: 2px solid burlywood;
     text-align: center;
+    outline: none;
   }
   
   

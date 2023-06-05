@@ -28,7 +28,6 @@ input[type="checkbox"] {
     background-color: rgba(243,207,152, 0.6);
     text-align: center;
     border-right: solid 1px black;
-    box-shadow: 3px 3px 3px 3px #999;
 }
 
 .tool_checkbox {
@@ -37,8 +36,9 @@ input[type="checkbox"] {
     top: -2.5vw;
     padding: 0.3vw;
     padding-left: 1vw;
-    background-color: rgb('f0f8ff');
-    box-shadow: 3px 3px 3px 3px #999;
+    background-color: white;
+    border: solid 1px lightslategray;
+    
     width: 32vw;
     margin-right: 1vw;
 }
