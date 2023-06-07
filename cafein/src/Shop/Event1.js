@@ -41,18 +41,18 @@ const Event1 = () => {
         <div className = "shop_page">
             <div className ="nav2">
                 <ul>
-                    <li><Link to='/Shop/Shop'>원두</Link></li>
-                    <li><Link to='/Shop/Tool'>도구</Link></li>
-                    <li>신상</li>
-                    <li>세일</li>
-                    <li><Link to='/Shop/Event0' style={{ color: 'burlywood'}}>기획전</Link></li>
+                    <li><a><Link to='/Shop/Shop'>원두</Link></a></li>
+                    <li><a><Link to='/Shop/Tool'>도구</Link></a></li>
+                    <li><a><Link to='/Shop/NewProduct'>신상</Link></a></li>
+                    <li><a><Link to='/Shop/OnSale'>신상</Link></a></li>
+                    <li><a><Link to='/Shop/Event0' style={{ color: 'burlywood'}}>기획전</Link></a></li>
                 </ul>
             </div>
         </div>
 
-        <div className="event_page1">
+        
             <img className="img12345" src={event_1}></img>
-        </div>
+        
 
         </>  
     );

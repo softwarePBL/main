@@ -34,25 +34,25 @@ const Event2 = () => {
 
     const handleChange = (value) => {
         console.log(value);
-    };
+    };  
 
     return (
         <>
         <div className = "shop_page">
             <div className ="nav2">
                 <ul>
-                    <li><a><Link to='/Shop/Shop'>원두</Link></a></li>
+                <li><a><Link to='/Shop/Shop'>원두</Link></a></li>
                     <li><a><Link to='/Shop/Tool'>도구</Link></a></li>
-                    <li><a href="new_product.html">신상</a></li>
-                    <li><a href="sale.html">세일</a></li>
+                    <li><a><Link to='/Shop/NewProduct'>신상</Link></a></li>
+                    <li><a><Link to='/Shop/OnSale'>신상</Link></a></li>
                     <li><a><Link to='/Shop/Event0' style={{ color: 'burlywood'}}>기획전</Link></a></li>
                 </ul>
             </div>
         </div>
 
-        <div class="event_page1">
-            <img class="img12345" src={event_2}></img>
-        </div>
+        
+            <img className="img12345" src={event_2}></img>
+        
 
         </>  
     );
