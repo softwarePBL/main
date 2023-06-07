@@ -113,7 +113,7 @@ const OnSale = () => {
             <li>
               <input type="image" className = "sale_img" src={product.img} alt={product.title} /> {/*제품 가격 */}
             </li>
-            <div class="pp_price">
+            <div className="pp_price">
 
             <div className='p_price'>
             <li>가격 : {product.price.toLocaleString()} 원</li>

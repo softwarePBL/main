@@ -233,7 +233,7 @@ const Shop = () => {
                     </div>
                 </div>
 
-                <div class="coffee_level">
+                <div className="coffee_level">
                     <div class="coffee_mix_choice">등급</div>
                     <div className="coffee_mix_checkbox">
                         <label htmlFor="coffee_level_label1">

@@ -55,8 +55,8 @@ const Drip_coffee = () => {
 
         <MyForm handleChange={handleChange}/>
 
-        <div class="body2_content">
-            <div class="tool_content">
+        <div className="body2_content">
+            <div className="tool_content">
                 <ul>
                     <li>카테고리</li>
                     <li><a><Link to='/Shop/Coffee_machine'>커피머신</Link></a></li>
@@ -67,13 +67,13 @@ const Drip_coffee = () => {
             </div>
         </div>
         
-        <div class="body3_content">
+        <div className="body3_content">
             <div>
-                <div class="tool_content2">
+                <div className="tool_content2">
                 드립커피
             </div>
 
-            <div class="tool_checkbox">
+            <div className="tool_checkbox">
                 <label htmlFor="drip_coffee_label1"><input type="checkbox" id="drip_coffee_label1" value="필터"/> 필터</label>
                 <label htmlFor="drip_coffee_label2"><input type="checkbox" id="drip_coffee_label2" value="드립포트"/> 드립포트</label>
                 <label htmlFor="drip_coffee_label3"><input type="checkbox" id="drip_coffee_label3" value="드립서버"/> 드립서버</label>
@@ -83,10 +83,10 @@ const Drip_coffee = () => {
         </div>
 
         <div>
-            <div class="tool_content2">
+            <div className="tool_content2">
                 가격
             </div>
-            <div class="tool_checkbox">
+            <div className="tool_checkbox">
                 <label htmlFor="price_label1"><input type="checkbox" id="price_label1" value="1만원이하"/> 1만원이하</label>
                 <label htmlFor="price_label2"><input type="checkbox" id="price_label2" value="1만원 ~ 2만원"/> 1만원 ~ 2만원</label>
                 <label htmlFor="price_label3"><input type="checkbox" id="price_label3" value="2만원 ~ 5만원"/> 2만원 ~ 5만원</label>
@@ -97,7 +97,7 @@ const Drip_coffee = () => {
             <div className="tool_content2">
                 브랜드
             </div>
-            <div class="tool_checkbox">
+            <div className="tool_checkbox">
                 <label htmlFor="brand_label1"><input type="checkbox" id="brand_label1" value="하리오"/> 하리오</label>
                 <label htmlFor="brand_label2"><input type="checkbox" id="brand_label2" value="칼리타"/> 칼리타</label>
                 <label htmlFor="brand_label3"><input type="checkbox" id="brand_label3" value="아돌프"/> 아돌프</label>
@@ -109,9 +109,9 @@ const Drip_coffee = () => {
                 <label htmlFor="brand_label9"><input type="checkbox" id="brand_label9" value="고노"/> 고노</label>
             </div>
         </div>
-    <div class="coffee_product_list">
+    <div className="coffee_product_list">
         <h1>상품 리스트</h1>
-        <div class="product-list" id="productList"></div>
+        <div className="product-list" id="productList"></div>
     </div>
 </div>
 

@@ -55,8 +55,8 @@ const Grinder = () => {
 
         <MyForm handleChange={handleChange}/>
 
-        <div class="body2_content">
-            <div class="tool_content">
+        <div className="body2_content">
+            <div className="tool_content">
                 <ul>
                     <li>카테고리</li>
                     <li><a><Link to='/Shop/Coffee_machine'>커피머신</Link></a></li>
@@ -67,22 +67,22 @@ const Grinder = () => {
             </div>
         </div>
 
-        <div class="body3_content">
+        <div className="body3_content">
     <div>
-        <div class="tool_content2">
+        <div className="tool_content2">
             그라인더
         </div>
-        <div class="tool_checkbox">
+        <div className="tool_checkbox">
             <label htmlFor="grinder_label1"><input type="checkbox" id="grinder_label1" value="자동"/> 자동</label>
             <label htmlFor="grinder_label2"><input type="checkbox" id="grinder_label2" value="수동"/> 수동</label>
         </div>
     </div>
 
     <div>
-        <div class="tool_content2">
+        <div className="tool_content2">
             가격
         </div>
-        <div class="tool_checkbox">
+        <div className="tool_checkbox">
             <label htmlFor="price_label1"><input type="checkbox" id="price_label1" value="1만원 ~ 2만원"/> 1만원 ~ 2만원</label>
             <label htmlFor="price_label2"><input type="checkbox" id="price_label2" value="6만원 ~ 8만원"/> 6만원 ~ 8만원</label>
             <label htmlFor="price_label3"><input type="checkbox" id="price_label3" value="25만원 ~ 38만원"/> 25만원 ~ 38만원</label>
@@ -90,10 +90,10 @@ const Grinder = () => {
         </div>
     </div>
     <div>
-        <div class="tool_content2">
+        <div className="tool_content2">
             브랜드
         </div>
-        <div class="tool_checkbox">
+        <div className="tool_checkbox">
             <label htmlFor="brand_label1"><input type="checkbox" id="brand_label1" value="칼리타"/> 칼리타</label>
             <label htmlFor="brand_label2"><input type="checkbox" id="brand_label2" value="드롱기"/> 드롱기</label>
             <label htmlFor="brand_label3"><input type="checkbox" id="brand_label3" value="타임모어"/> 타임모어</label>
@@ -106,9 +106,9 @@ const Grinder = () => {
             <label htmlFor="brand_label10"><input type="checkbox" id="brand_label10" value="칼딘"/> 칼딘</label>
         </div>
     </div>
-    <div class="coffee_product_list">
+    <div className="coffee_product_list">
         <h1>상품 리스트</h1>
-        <div class="product-list" id="productList"></div>
+        <div className="product-list" id="productList"></div>
     </div>
 </div>
 
