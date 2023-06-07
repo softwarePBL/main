@@ -1,0 +1,10 @@
+.changeAccountWrap{
+    display: grid;
+    justify-items: center;
+    width: 70%;
+    box-sizing: border-box;
+    background-color:#F1F1F1;
+    border-radius: 17px;
+    margin: auto;
+    margin-top: 10%;
+}
