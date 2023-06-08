@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import firebase from 'firebase/compat/app';
+import { useParams } from 'react-router-dom';
 import 'firebase/compat/firestore';
 import 'firebase/auth';
 import './tool.css'
@@ -268,20 +269,21 @@ const Coffee_machine = () => {
                 </div>
                 <div className="coffee_product_list">
             <h1>상품 리스트</h1>
-            <div className="product-list" id="productList"></div>
             </div>
             <div className="search-results">
-        {searchResults.length > 0 ? (
-          searchResults.map((result) => (
-            <div key={result.id} className="search-result-item">
-              <img src={result.img} alt={result.title} />
-              <h3>{result.title}</h3>
-              <p>가격 : {result.price}</p>
-            </div>
-          ))
-        ) : (
-          <p>검색 결과가 없습니다.</p>
-        )}
+  {searchResults.length > 0 ? (
+    searchResults.map((result) => (
+      <div key={result.id} className="search-result-item" style={{ position:"absoulute", marginTop: "90%", marginLeft:'30%'}}>
+        <a href={`/Shop/ProductDetail/${result.id}`}>
+          <img src={result.img} alt={result.title} style={{width:"30%"}}/>
+          <h3>{result.title}</h3>
+        </a>
+        <p>가격: {result.price}</p>
+      </div>
+    ))
+  ) : (
+    <p>검색 결과가 없습니다.</p>
+  )}
     </div>
             </div>
             </>

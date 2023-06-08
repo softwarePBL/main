@@ -90,16 +90,17 @@ const Tool = () => {
                 </ul>
             </div>
         </div>
-      <ul>
+        <ul>
   {Tools.map((product) => (
-    <React.Fragment key={product.id}>
-      <li>{product.title}</li>
-      <li>
-        <img src={product.img}/>
-     </li>
-    </React.Fragment>
+    <li key={product.id}>
+      <Link to={`/detail/${product.title}`}>
+        {product.title}
+        <img src={product.img} alt={product.title} />
+      </Link>
+    </li>
   ))}
 </ul>
+
     </>
     );
 };

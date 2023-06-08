@@ -1,0 +1,21 @@
+#detailPage{
+    position: relative;
+    margin-top: 20%;
+}
+
+#title{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#productIMG{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#REVIEW > h3{
+    position: fixed;
+    margin-top: 20%;
+}

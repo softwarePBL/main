@@ -239,21 +239,21 @@ const Grinder = () => {
             <label htmlFor="brand_label10"><input type="checkbox" name='brand'id="brand_label10" value="칼딘"/> 칼딘</label>
         </div>
     </div>
-        <h1>상품 리스트</h1>
-        <div className="search-results">
-        {searchResults.length > 0 ? (
-          searchResults.map((result) => (
-            <div key={result.id} className="search-result-item">
-              <img src={result.img} alt={result.title} />
-              <h3>{result.title}</h3>
-              <p>가격 : {result.price}</p>
-            </div>
-          ))
-        ) : (
-          <p>검색 결과가 없습니다.</p>
-        )}
+    <div className="search-results">
+  {searchResults.length > 0 ? (
+    searchResults.map((result) => (
+      <div key={result.id} className="search-result-item" style={{ position:"absoulute", marginTop: "90%", marginLeft:'30%'}}>
+        <a href={`/Shop/ProductDetail/${result.id}`}>
+          <img src={result.img} alt={result.title} style={{width:"30%"}}/>
+          <h3>{result.title}</h3>
+        </a>
+        <p>가격: {result.price}</p>
+      </div>
+    ))
+  ) : (
+    <p>검색 결과가 없습니다.</p>
+  )}
     </div>
-        <div class="product-list" id="productList"></div>
     </div>
     </>
 ); }; export default Grinder;
