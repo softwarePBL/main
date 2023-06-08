@@ -18,15 +18,15 @@ export default function Header() {
               <span className="nav1">
                   <ul>
                       <li>
-                          <Link to="/Shop/Shop" style={{ fontSize: "2.2vw" }}> 
+                          <Link to="/Shop/Shop" style={{ fontSize: "1.8vw", fontWeight:"bold" }}> 
                               쇼핑
                           </Link>
                       </li>
                       <li>
-                          <Link to="/Sign/SignIn">로그인</Link>
+                          <Link to="/Sign/SignIn" style={{ fontSize: "1.8vw", fontWeight:"bold" }}>로그인</Link>
                       </li>
                       <li>
-                          <Link to="/Sign/SignUp">회원가입</Link>
+                          <Link to="/Sign/SignUp" style={{ fontSize: "1.8vw", fontWeight:"bold" }}>회원가입</Link>
                       </li>
                   </ul>
               </span>

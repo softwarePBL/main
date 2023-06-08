@@ -44,7 +44,7 @@ const Event4 = () => {
                 <li><a><Link to='/Shop/Shop'>원두</Link></a></li>
                     <li><a><Link to='/Shop/Tool'>도구</Link></a></li>
                     <li><a><Link to='/Shop/NewProduct'>신상</Link></a></li>
-                    <li><a><Link to='/Shop/OnSale'>신상</Link></a></li>
+                    <li><a><Link to='/Shop/OnSale'>세일</Link></a></li>
                     <li><a><Link to='/Shop/Event0' style={{ color: 'burlywood'}}>기획전</Link></a></li>
                 </ul>
         </div>

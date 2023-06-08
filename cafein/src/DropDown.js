@@ -54,12 +54,12 @@ const DropDown = () => {
                 <span className="nav1">
                     <ul>
                         <li>
-                            <Link to="/Shop/*" style={{ fontSize: "2.2vw" }}> 
+                            <Link to="/Shop/Shop" style={{ fontSize: "1.8vw", fontWeight:"bold" }}> 
                                 쇼핑
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Sign/Logout">로그아웃</Link>
+                            <Link to="/Sign/Logout" style={{ fontSize: "1.8vw", fontWeight:"bold" }}>로그아웃</Link>
                         </li>
                     </ul>
                 </span>
